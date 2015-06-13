@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IniciativadFideliza.Domain", "app\IniciativadFideliza.Domain\IniciativadFideliza.Domain.csproj", "{CF35E2CC-6203-4ADD-9B2E-1DAE397EA5D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IniciativadFideliza.Helpers", "IniciativadFideliza.Helpers\IniciativadFideliza.Helpers.csproj", "{998709B0-E008-4CCE-A422-5B7FFCC26127}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{D5E55765-A04F-4233-AE04-AC98551BE87F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helpers", "Helpers", "{B9766835-3CF9-4AF4-BC7C-380BF0AD6322}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{97182BAD-10C4-4A98-BC21-748F18350973}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IniciativadFideliza.Repository", "IniciativadFideliza.Repository\IniciativadFideliza.Repository.csproj", "{2C780E32-8969-4D5D-93A8-C698B4E3C08A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF35E2CC-6203-4ADD-9B2E-1DAE397EA5D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF35E2CC-6203-4ADD-9B2E-1DAE397EA5D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF35E2CC-6203-4ADD-9B2E-1DAE397EA5D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF35E2CC-6203-4ADD-9B2E-1DAE397EA5D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{998709B0-E008-4CCE-A422-5B7FFCC26127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{998709B0-E008-4CCE-A422-5B7FFCC26127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{998709B0-E008-4CCE-A422-5B7FFCC26127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{998709B0-E008-4CCE-A422-5B7FFCC26127}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C780E32-8969-4D5D-93A8-C698B4E3C08A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C780E32-8969-4D5D-93A8-C698B4E3C08A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C780E32-8969-4D5D-93A8-C698B4E3C08A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C780E32-8969-4D5D-93A8-C698B4E3C08A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF35E2CC-6203-4ADD-9B2E-1DAE397EA5D4} = {D5E55765-A04F-4233-AE04-AC98551BE87F}
+		{998709B0-E008-4CCE-A422-5B7FFCC26127} = {B9766835-3CF9-4AF4-BC7C-380BF0AD6322}
+		{2C780E32-8969-4D5D-93A8-C698B4E3C08A} = {97182BAD-10C4-4A98-BC21-748F18350973}
+	EndGlobalSection
+EndGlobal
